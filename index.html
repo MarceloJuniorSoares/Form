@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+        
+            
+    <form method="post" action="/LeituraDoFormulário/main.html">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label>
+            Nome:<br>
+            <input placeholder="Nome" type="text" name="name" value="" required>
+        </label>
+        <label>
+            Sobrenome:<br>
+            <input placeholder="Sobrenome" type="text" name="lastname" value="">
+        </label>
+        <label>
+            CPF:<br>
+            <input required placeholder="CPF" type="text" name="cpf">
+        </label>
+        <label>
+            RG:<br>
+            <input required placeholder="RG" type="text" name="rg">
+        </label>
+        <label>
+            E-mail:<br>
+            <input required placeholder="E-mail" type="email" name="email">
+            <label>
+                Data de Nascimento:<br>
+                <input required type="date" name="dateofbirth" value="data de nascimento">
+            </label>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+            Último Cargo:<br>
+            <input placeholder="Último Cargo" type="text" name: company >
+        </label>
+        <label>
+            E-mail Profissional:<br>
+            <input placeholder="E-mail" type="email" name="email">
+        </label>
+        <label>
+            Escolha seu Cargo:
+        <select required>
+            <option selected disabled>Área de Trabalho</option>
+            <option>Administração</option>
+            <option>Armazém</option>
+            <option>Tech lider</option>
+            <option>T.I</option>
+        </select>
+    </label>
+        <label>  
+            Sua CTTPS:
+            <input required type="file" name="arqv" value="file" accept="application/pdf, image/*">
+        </label>
+        <button>Cadastrar</button>
+        
+    </fieldset>   
+    </form>
+</body>
+</html>

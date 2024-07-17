@@ -1,0 +1,28 @@
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+fieldset {
+    background-color: #CCC;
+    border: 2px solid grey;
+    
+}
+legend {
+    font-size: 17px;
+    font-weight: bold;
+}
+input {
+    padding: 5px;
+    
+}
+button{
+    
+    border: 3px groove gray;
+    padding: 3px;
+
+}
+button:hover{
+    background-color: #d5d0d0;
+    color: black;
+    border: 3px solid black;
+}
